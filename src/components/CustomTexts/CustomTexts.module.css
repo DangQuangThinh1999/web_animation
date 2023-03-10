@@ -1,0 +1,17 @@
+.typingText {
+  font-weight: normal;
+  font-size: 14px;
+  color: white;
+}
+.textCenter {
+  text-align: center;
+}
+.titleText {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  @media (min-width: 768px) {
+    font-size: 64px;
+  }
+}

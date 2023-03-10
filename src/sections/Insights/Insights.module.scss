@@ -1,0 +1,67 @@
+@import "@/components/GlobalStyles/GlobalStyles";
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+.wrapperInsightCard {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.mediaInsightCard {
+  width: 100%;
+  height: 250px;
+  border-radius: 32px;
+  object-fit: cover;
+}
+.titleInsightCard {
+  flex: 1 1 0%;
+  flex-direction: column;
+  display: flex;
+  max-width: 650px;
+}
+.titleInsightCardH4 {
+  font-weight: normal;
+  font-size: 26px;
+  color: white;
+}
+.InsightP {
+  margin-top: 16px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ecdddd;
+}
+.lastInsight {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 9999px;
+  border: solid 1px white;
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .wrapperInsightCard {
+    flex-direction: row;
+  }
+  .mediaInsightCard {
+    width: 270px;
+  }
+  .titleInsightCard {
+    margin-left: 62px;
+  }
+}
+@media (min-width: 1024px) {
+  .titleInsightCardH4 {
+    font-size: 42px;
+  }
+  .InsightP {
+    font-size: 20px;
+  }
+  .lastInsight {
+    display: flex;
+  }
+}

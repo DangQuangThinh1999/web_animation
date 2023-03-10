@@ -1,0 +1,67 @@
+.innerWidth {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  @media (min-width: 1536px) {
+    max-width: 1280px;
+  }
+}
+.heroHeading {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 64.4px;
+  text-transform: uppercase;
+  color: white;
+  @media (min-width: 1024px) {
+    font-size: 144px;
+    line-height: 158.4px;
+  }
+  @media (min-width: 768px) {
+    font-size: 100px;
+    line-height: 114.4px;
+  }
+  @media (min-width: 640px) {
+    font-size: 60px;
+    line-height: 74.4px;
+  }
+}
+.heroDText {
+  width: 60px;
+  height: 38px;
+  border-width: 9px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  border-color: white;
+  border-style: solid;
+  marin-right: 6px;
+  margin-left: 6px;
+
+  @media (min-width: 768px) {
+    width: 212px;
+    height: 108px;
+    border-width: 18px;
+  }
+  @media (min-width: 640px) {
+    width: 80px;
+    height: 48px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+.heroAfter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.slideIn {
+  position: relative;
+  width: 100%;
+  margin-top: 12px;
+  @media (min-width: 768px) {
+    margin-top: 20px;
+  }
+}

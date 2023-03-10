@@ -1,0 +1,23 @@
+.innerWidth {
+  width: 100%;
+  @media (min-width: 1536px) {
+    maxwidth: "1280px";
+  }
+}
+.paragraph {
+  margin-top: 8px;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(223, 207, 190);
+  @media (min-width: 640px) {
+    font-size: 32px;
+  }
+}
+
+.vector {
+  width: 18px;
+  height: 28px;
+  object-fit: contain;
+  margin-top: 28px;
+}

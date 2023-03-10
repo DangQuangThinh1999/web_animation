@@ -1,0 +1,6 @@
+@import "normalize.css";
+@import "value";
+@import "@/components/GlobalStyles";
+.test {
+  background-color: $red;
+}

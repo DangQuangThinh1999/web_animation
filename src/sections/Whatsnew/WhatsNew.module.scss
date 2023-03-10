@@ -1,0 +1,27 @@
+@import "@/components/GlobalStyles/GlobalStyles";
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8;
+}
+
+.paragraph {
+  flex: 0.95 0.95 0%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flexCenter {
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    flex-direction: row;
+  }
+}

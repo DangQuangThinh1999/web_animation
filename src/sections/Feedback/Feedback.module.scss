@@ -1,0 +1,86 @@
+@import "@/components/GlobalStyles/GlobalStyles";
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.title {
+  flex: 0.5 0.5 0%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 32px;
+  border: 1px solid #6a6a6a;
+  position: relative;
+}
+.feedbackH4 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36.32px;
+  color: white;
+}
+.feedbackP {
+  margin-top: 8px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16.68px;
+  color: white;
+}
+.feedback-p {
+  margin-top: 24px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 39.6px;
+  color: white;
+}
+.motionImg {
+  position: relative;
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rocket {
+  width: 100%;
+  height: auto;
+  min-height: 210px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+@media (min-width: 640px) {
+  .feedbackH4 {
+    font-size: 32px;
+    line-height: 40.32px;
+  }
+  .feedbackP {
+    font-size: 18px;
+    line-height: 22.68px;
+  }
+  .feedback-p {
+    font-size: 24px;
+    line-height: 45.6px;
+  }
+}
+.lastRocket {
+  display: hidden;
+  position: absolute;
+  left: -11%;
+  top: 25%;
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    flex-direction: row;
+  }
+  .title {
+    max-width: 370px;
+  }
+  .rocket {
+    height: 610px;
+  }
+  .lastRocket {
+    display: block;
+  }
+}
